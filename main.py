@@ -17,7 +17,7 @@ def detect_face(img):
             cv2.putText(img,"You are smiling",(0,50),cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2)
             if(len(face_rects)*0.5 <=len(smile_rects)):
                 y=y+1
-                x="Photo\\"+str(y)+".jpg"
+                x="Image\\"+str(y)+".jpg"
                 cv2.imwrite(x,img)
     return img
 
