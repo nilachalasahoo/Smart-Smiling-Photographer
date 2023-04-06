@@ -27,7 +27,7 @@ The haarcascades dataset of face and smile to click photo while smiling .
                                  Image-2              
                              
 
-# Working
+# Working Process
 
 -> As per the above preview it show how many faces are present over there with the help of harcascade dataset of frontalface_default .         
 -> After detect the face it will check the smile inside the face image only with the help of haarcascades smile dataset .     
